@@ -7,6 +7,6 @@ COPY package.json /home/ultra-api
 WORKDIR /home/ultra-api
 RUN npm i
 
-COPY . /home/home/ultra-api
+COPY . /home/ultra-api
 
 CMD npm run start
